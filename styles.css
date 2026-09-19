@@ -139,3 +139,34 @@
   .home .hero-media{height:300px !important;min-height:300px !important;}
   .home .hero-media>img{object-fit:cover !important;object-position:72% center !important;}
 }
+
+
+/* Definitive hero fix: use only the clean photo region of the reference artwork */
+.home .hero-media{
+  position:relative !important;
+  height:430px !important;
+  min-height:430px !important;
+  overflow:hidden !important;
+  background:#062744 !important;
+}
+.home .hero-photo-clean{
+  position:absolute;
+  inset:0;
+  background-image:url('assets/home-hero-reference.jpg');
+  background-repeat:no-repeat;
+  background-size:auto 100%;
+  background-position:right center;
+}
+.home .hero-media .hero-belong{
+  display:block !important;
+  position:absolute !important;
+  right:5% !important;
+  top:8% !important;
+  z-index:2;
+}
+.home .hero-media>img{display:none !important}
+@media(max-width:760px){
+  .home .hero-media{height:300px !important;min-height:300px !important}
+  .home .hero-photo-clean{background-size:auto 100%;background-position:right center}
+  .home .hero-media .hero-belong{display:none !important}
+}
