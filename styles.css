@@ -192,4 +192,4 @@
 @media(max-width:600px){.home .what-we-do .feature{min-height:0}}
 
 /* What We Do: smaller square cards, centered in the existing four-card row. */
-@media(min-width:1001px){.home .what-we-do .feature-grid{grid-template-columns:repeat(4,minmax(0,220px));justify-content:center;gap:14px}.home .what-we-do .feature{width:100%;aspect-ratio:1 / 1;min-height:0;padding:45px 12px 12px}.home .what-we-do .feature h3{font-size:.98rem}.home .what-we-do .feature p{font-size:.69rem;line-height:1.25}.home .what-we-do .feature a{font-size:.7rem}.home .what-we-do .feature-icon{font-size:1.5rem}}
+@media(min-width:1001px){.home .what-we-do .feature-grid{grid-template-columns:repeat(4,minmax(0,240px));justify-content:center;gap:14px}.home .what-we-do .feature{width:100%;aspect-ratio:1 / 1;min-height:0;padding:45px 12px 12px}.home .what-we-do .feature h3{font-size:.98rem}.home .what-we-do .feature p{font-size:.69rem;line-height:1.25}.home .what-we-do .feature a{font-size:.7rem}.home .what-we-do .feature-icon{font-size:1.5rem}}
