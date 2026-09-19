@@ -336,3 +336,7 @@
 
 /* Keep the selected Float Group 2025 photo clearly visible in the Partners hero. */
 .partners-hero{background-image:linear-gradient(90deg,rgba(3,25,48,.94) 0%,rgba(3,25,48,.78) 31%,rgba(3,25,48,.18) 62%,rgba(3,25,48,.04) 100%),url("Float%20Group%202025.JPG");background-position:center,center 42%;background-size:cover}
+
+/* Crop the Partners hero lower in the photo so the people, not the sky/top, are featured. */
+.partners-hero{background-position:center,center 82%}
+@media(max-width:760px){.partners-hero{background-position:center,60% 85%}}
