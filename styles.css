@@ -251,3 +251,7 @@
 /* Larger partner logos while preserving original proportions. */
 .home .home-partners .partners img{width:auto;height:76px;max-width:205px;object-fit:contain}
 @media(max-width:760px){.home .home-partners .partners img{height:60px;max-width:165px}}
+
+/* Slightly larger partner logos. */
+.home .home-partners .partners img{height:92px;max-width:240px}
+@media(max-width:760px){.home .home-partners .partners img{height:72px;max-width:190px}}
