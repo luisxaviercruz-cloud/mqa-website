@@ -333,3 +333,6 @@
 .partners-hero .partners-hero-script{position:absolute;right:4%;bottom:20px;z-index:1;color:#fff;font-family:"Segoe Print","Bradley Hand",cursive;font-size:clamp(1.45rem,2.8vw,2.7rem);line-height:1.02;text-align:center;transform:rotate(-11deg);text-shadow:0 2px 8px #092039}
 .partners-hero .partners-hero-script span{color:#ef007b}
 @media(max-width:760px){.partners-hero{min-height:470px;padding:24px 26px 95px;background-position:58% center}.partners-hero h1{white-space:normal}.partners-hero p{font-size:.95rem}.partners-hero .partners-hero-script{right:8%;bottom:13px;font-size:1.5rem}.partners-hero .partners-hero-actions .btn{min-width:0}}
+
+/* Keep the selected Float Group 2025 photo clearly visible in the Partners hero. */
+.partners-hero{background-image:linear-gradient(90deg,rgba(3,25,48,.94) 0%,rgba(3,25,48,.78) 31%,rgba(3,25,48,.18) 62%,rgba(3,25,48,.04) 100%),url("Float%20Group%202025.JPG");background-position:center,center 42%;background-size:cover}
