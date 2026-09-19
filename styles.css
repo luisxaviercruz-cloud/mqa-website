@@ -350,3 +350,6 @@
 
 /* Display uploaded Partners photo as a real image, not a background dependent on CSS. */
 .partners-hero{background:#031930!important}.partners-hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 80%;z-index:-2}.partners-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,25,48,.94) 0%,rgba(3,25,48,.76) 32%,rgba(3,25,48,.12) 68%,rgba(3,25,48,.02) 100%);z-index:-1;pointer-events:none}@media(max-width:760px){.partners-hero-photo{object-position:60% 85%}}
+
+/* Fix hero stacking: the photo must sit ABOVE the section background. */
+.partners-hero-photo{z-index:0!important;display:block!important;visibility:visible!important;opacity:1!important}.partners-hero::before{z-index:1!important}.partners-hero-copy,.partners-hero-script{z-index:2!important}
