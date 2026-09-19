@@ -255,3 +255,7 @@
 /* Slightly larger partner logos. */
 .home .home-partners .partners img{height:92px;max-width:240px}
 @media(max-width:760px){.home .home-partners .partners img{height:72px;max-width:190px}}
+
+/* Colors+ artwork has more internal whitespace: give its logo extra display area only. */
+.home .home-partners .partners img[alt="Colors+ Counseling"]{height:124px;max-width:280px;flex-shrink:0}
+@media(max-width:760px){.home .home-partners .partners img[alt="Colors+ Counseling"]{height:98px;max-width:225px}}
