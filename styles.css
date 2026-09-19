@@ -263,7 +263,7 @@
 /* Automatically scrolling partner logos; pause on hover or keyboard focus. */
 .home .home-partners .partner-carousel{overflow:hidden;width:100%;border-top:1px solid #edf0f4;margin-top:20px;padding-top:16px}
 .home .home-partners .partner-logo-track{display:flex;width:max-content;animation:partner-marquee 30s linear infinite}
-.home .home-partners .partner-carousel:hover .partner-logo-track,.home .home-partners .partner-carousel:focus-within .partner-logo-track{animation-play-state:paused}
+
 .home .home-partners .partner-logo-group{display:flex;align-items:center;gap:34px;flex:0 0 auto;padding-right:34px}
 .home .home-partners .partner-logo-group img{display:block;width:175px;height:92px;object-fit:contain;flex:0 0 175px}
 .home .home-partners .partner-logo-group img[src*="Colors%2B"]{width:215px;height:124px;flex-basis:215px}
