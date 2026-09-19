@@ -272,3 +272,6 @@
 @keyframes partner-marquee{to{transform:translateX(-50%)}}
 @media(max-width:760px){.home .home-partners .partner-logo-group{gap:22px;padding-right:22px}.home .home-partners .partner-logo-group img{width:145px;height:72px;flex-basis:145px}.home .home-partners .partner-logo-group img[src*="Colors%2B"]{width:180px;height:98px;flex-basis:180px}}
 @media(prefers-reduced-motion:reduce){.home .home-partners .partner-logo-track{animation:none}.home .home-partners .partner-carousel{overflow-x:auto}}
+
+/* Center the Become a Partner button beneath the scrolling logos. */
+.home .home-partners .partner-actions{justify-content:center}
