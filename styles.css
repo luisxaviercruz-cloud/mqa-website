@@ -212,3 +212,6 @@
 
 /* Keep all five What We Do squares side by side on desktop. */
 @media(min-width:1001px){.home .what-we-do .feature-grid{grid-template-columns:repeat(5,minmax(0,1fr));max-width:1260px;margin-inline:auto;gap:12px}.home .what-we-do .feature{width:100%;min-width:0;aspect-ratio:1/1}}
+
+/* Bring What We Do squares a little closer together, preserving sizes. */
+@media(min-width:1001px){.home .what-we-do .feature-grid{gap:7px}}
