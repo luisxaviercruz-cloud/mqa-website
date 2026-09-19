@@ -52,3 +52,18 @@
   .home .hero{grid-template-columns:1fr;min-height:0}
   .home .hero-photo{min-height:330px;background-size:cover;background-position:center 32%}
 }
+
+
+/* Show the complete approved homepage hero image instead of cropping it */
+.home .hero-photo{
+  background-size:contain !important;
+  background-repeat:no-repeat !important;
+  background-position:center center !important;
+  background-color:#062744;
+}
+@media(max-width:760px){
+  .home .hero-photo{
+    background-size:contain !important;
+    background-position:center center !important;
+  }
+}
