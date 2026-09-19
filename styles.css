@@ -201,3 +201,7 @@
 .home .what-we-do .feature:nth-child(3){background-image:linear-gradient(to top,rgba(1,12,27,1) 0%,rgba(1,12,27,.97) 27%,rgba(1,19,36,.48) 51%,rgba(1,19,36,0) 82%),url('community-groups/ACF81201-5AFB-4E0A-98D0-82ED9975A2BB.JPEG')}
 .home .what-we-do .feature:nth-child(4){background-image:linear-gradient(to top,rgba(1,12,27,1) 0%,rgba(1,12,27,.97) 27%,rgba(1,19,36,.48) 51%,rgba(1,19,36,0) 82%),url('community-groups/43075409-92D9-430F-ACE2-BFEA7BEDB483.PNG')}
 @media(min-width:1001px){.home .what-we-do .feature-icon{font-size:2.35rem}}
+
+/* Slightly larger What We Do program/card names; keep all other sizing. */
+.home .what-we-do .feature h3{font-size:1.16rem;line-height:1.18}
+@media(min-width:1001px){.home .what-we-do .feature h3{font-size:1.16rem}}
