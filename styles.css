@@ -161,3 +161,14 @@
 /* Make homepage event names easier to read without resizing cards or photos. */
 @media(min-width:1101px){.home .hero + .section .event-card h3{font-size:1.2rem;line-height:1.18;font-weight:800;margin:3px 0 7px}}
 @media(min-width:761px) and (max-width:1100px){.home .hero + .section .event-card h3{font-size:1.2rem;line-height:1.18;font-weight:800}}
+
+/* Homepage events: place date square immediately to the right of event details. */
+@media(min-width:761px){
+ .home .hero + .section .event-card{grid-template-columns:minmax(0,1fr) 55px 150px}
+ .home .hero + .section .event-card>div:nth-child(2){grid-column:1;grid-row:1}
+ .home .hero + .section .event-card>.date{grid-column:2;grid-row:1;align-self:start;margin-top:3px}
+ .home .hero + .section .event-card>img{grid-column:3;grid-row:1}
+}
+@media(min-width:761px) and (max-width:1100px){
+ .home .hero + .section .event-card{grid-template-columns:minmax(0,1fr) 65px 125px}
+}
