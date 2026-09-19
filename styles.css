@@ -111,7 +111,7 @@
  .home .hero-media::before{display:none !important}
  .home .hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,var(--navy2) 0%,var(--navy2) 30%,rgba(3,31,59,.97) 36%,rgba(3,31,59,.82) 42%,rgba(3,31,59,.48) 50%,rgba(3,31,59,.14) 59%,rgba(3,31,59,0) 69%)}
  .home .hero-copy{position:relative !important;grid-column:1;z-index:2 !important;background:transparent !important}
- .home .hero-belong{position:absolute !important;z-index:4 !important;left:51% !important;right:auto !important;top:8% !important;text-align:center !important;text-shadow:0 2px 12px rgba(3,31,59,.7) !important}
+ .home .hero-belong{position:absolute !important;z-index:4 !important;left:49% !important;right:auto !important;top:auto !important;bottom:7% !important;text-align:center !important;text-shadow:0 2px 12px rgba(3,31,59,.7) !important}
 }
 @media(max-width:760px){
  .home .hero-copy{background:var(--navy2) !important}\n .home .hero-belong{position:absolute !important;left:auto !important;right:5% !important;top:auto !important;bottom:175px !important;z-index:4 !important}
