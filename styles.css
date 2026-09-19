@@ -186,3 +186,7 @@
 .home .what-we-do .feature a{font-size:.77rem;font-weight:750;text-decoration:none}
 @media(max-width:1000px){.home .what-we-do .feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.home .what-we-do .feature-grid{grid-template-columns:1fr}.home .what-we-do .feature{min-height:215px}.home .what-we-do .section-head{gap:10px;align-items:flex-start}}
+
+/* What We Do: restore square photo tiles from approved layout. */
+.home .what-we-do .feature{aspect-ratio:1 / 1;min-height:0;padding:60px 15px 14px}
+@media(max-width:600px){.home .what-we-do .feature{min-height:0}}
