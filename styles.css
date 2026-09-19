@@ -157,3 +157,7 @@
 @media(min-width:1101px) and (max-width:1450px){
  .home .hero + .section .event-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
+
+/* Make homepage event names easier to read without resizing cards or photos. */
+@media(min-width:1101px){.home .hero + .section .event-card h3{font-size:1.2rem;line-height:1.18;font-weight:800;margin:3px 0 7px}}
+@media(min-width:761px) and (max-width:1100px){.home .hero + .section .event-card h3{font-size:1.2rem;line-height:1.18;font-weight:800}}
