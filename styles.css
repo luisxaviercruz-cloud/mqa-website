@@ -38,3 +38,17 @@
 .home .footer{padding-top:42px;padding-bottom:42px}
 @media(max-width:1000px){.home .hero{grid-template-columns:minmax(420px,50%) 1fr}.home .event-card{grid-template-columns:64px 1fr 105px}}
 @media(max-width:760px){.home .hero{grid-template-columns:1fr;min-height:680px}.home .hero-copy{padding:54px 28px}.home .hero-belong{display:none}.home .event-card{grid-template-columns:58px 1fr}.home .event-card img{display:none}.home .section{padding-top:38px;padding-bottom:38px}.home .section h2{font-size:2rem}}
+
+
+/* Homepage hero photo framing fix */
+.home .hero{min-height:440px;grid-template-columns:minmax(500px,52%) 48%}
+.home .hero-photo{min-height:440px;background-size:cover;background-position:center 38%}
+.home .hero-copy{padding-top:42px;padding-bottom:42px}
+@media(max-width:1000px){
+  .home .hero{grid-template-columns:minmax(430px,55%) 45%;min-height:420px}
+  .home .hero-photo{min-height:420px;background-position:center 35%}
+}
+@media(max-width:760px){
+  .home .hero{grid-template-columns:1fr;min-height:0}
+  .home .hero-photo{min-height:330px;background-size:cover;background-position:center 32%}
+}
