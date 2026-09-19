@@ -67,3 +67,50 @@
     background-position:center center !important;
   }
 }
+
+
+/* Homepage hero rebuild: image is now a real contained element, not a background */
+.home .hero{
+  min-height:0 !important;
+  grid-template-columns:minmax(520px,1.05fr) minmax(420px,.95fr) !important;
+  align-items:stretch;
+}
+.home .hero-copy{
+  min-height:430px;
+  padding-top:44px !important;
+  padding-bottom:44px !important;
+}
+.home .hero-media{
+  position:relative;
+  min-width:0;
+  height:430px;
+  overflow:hidden;
+  background:#062744;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.home .hero-media>img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+}
+.home .hero-media .hero-belong{
+  position:absolute;
+  right:6%;
+  top:8%;
+}
+@media(max-width:1000px){
+  .home .hero{grid-template-columns:1fr 1fr !important}
+  .home .hero-copy,.home .hero-media{min-height:400px;height:400px}
+  .home .hero h1{font-size:clamp(2.8rem,5vw,4.3rem)}
+}
+@media(max-width:760px){
+  .home .hero{display:flex !important;flex-direction:column !important}
+  .home .hero-copy{min-height:0;height:auto;padding:38px 28px !important}
+  .home .hero-media{height:auto;min-height:0}
+  .home .hero-media>img{width:100%;height:auto;object-fit:contain}
+  .home .hero-media .hero-belong{display:none}
+}
