@@ -87,3 +87,18 @@
  .home .hero-media{height:300px !important;min-height:300px !important}
  .home .hero-belong{display:block !important;font-size:1.35rem !important}
 }
+
+/* Final locked desktop hero match — approved mockup */
+@media(min-width:1001px){
+ .home .hero{grid-template-columns:40% 60% !important;height:360px !important;min-height:360px !important}
+ .home .hero-copy{height:360px !important;min-height:360px !important;padding:26px 28px 24px max(30px,calc((100vw - var(--max))/2 + 28px)) !important;justify-content:center !important}
+ .home .hero .script{font-size:1.3rem !important;margin:0 0 9px !important}
+ .home .hero .hero-title{font-size:2.48rem !important;line-height:.94 !important;margin:0 0 10px !important}
+ .home .hero p{font-size:.78rem !important;line-height:1.38 !important;max-width:500px !important;margin:0 0 12px !important}
+ .home .hero-actions{gap:9px !important}
+ .home .hero-actions .btn{min-width:100px !important;padding:8px 15px !important;font-size:.7rem !important;border-radius:6px !important}
+ .home .tagline{margin-top:13px !important;font-size:.47rem !important;letter-spacing:.2em !important}
+ .home .hero-media{height:360px !important;min-height:360px !important}
+ .home .hero-real-photo{object-fit:cover !important;object-position:center 45% !important}
+ .home .hero-belong{right:5% !important;top:7% !important;font-size:1.55rem !important;line-height:.98 !important}
+}
