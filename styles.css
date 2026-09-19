@@ -259,3 +259,16 @@
 /* Colors+ artwork has more internal whitespace: give its logo extra display area only. */
 .home .home-partners .partners img[alt="Colors+ Counseling"]{height:124px;max-width:280px;flex-shrink:0}
 @media(max-width:760px){.home .home-partners .partners img[alt="Colors+ Counseling"]{height:98px;max-width:225px}}
+
+/* Automatically scrolling partner logos; pause on hover or keyboard focus. */
+.home .home-partners .partner-carousel{overflow:hidden;width:100%;border-top:1px solid #edf0f4;margin-top:20px;padding-top:16px}
+.home .home-partners .partner-logo-track{display:flex;width:max-content;animation:partner-marquee 30s linear infinite}
+.home .home-partners .partner-carousel:hover .partner-logo-track,.home .home-partners .partner-carousel:focus-within .partner-logo-track{animation-play-state:paused}
+.home .home-partners .partner-logo-group{display:flex;align-items:center;gap:34px;flex:0 0 auto;padding-right:34px}
+.home .home-partners .partner-logo-group img{display:block;width:175px;height:92px;object-fit:contain;flex:0 0 175px}
+.home .home-partners .partner-logo-group img[src*="Colors%2B"]{width:215px;height:124px;flex-basis:215px}
+.home .home-partners .partner-actions{display:flex;align-items:center;justify-content:flex-end;gap:22px;margin-top:10px}
+.home .home-partners .partner-actions .partners-more{font-size:.8rem}
+@keyframes partner-marquee{to{transform:translateX(-50%)}}
+@media(max-width:760px){.home .home-partners .partner-logo-group{gap:22px;padding-right:22px}.home .home-partners .partner-logo-group img{width:145px;height:72px;flex-basis:145px}.home .home-partners .partner-logo-group img[src*="Colors%2B"]{width:180px;height:98px;flex-basis:180px}}
+@media(prefers-reduced-motion:reduce){.home .home-partners .partner-logo-track{animation:none}.home .home-partners .partner-carousel{overflow-x:auto}}
