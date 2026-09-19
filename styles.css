@@ -230,3 +230,7 @@
 @media(max-width:1100px){.home .home-impact{grid-template-columns:repeat(3,1fr)}.home .home-impact .impact-intro{grid-column:1/-1}.home .home-impact .script{grid-column:1/-1}.home .home-partners .partners{flex-wrap:wrap}.home .home-footer{grid-template-columns:repeat(3,minmax(0,1fr))}.home .home-newsletter{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.home .home-impact{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.home .impact-stat>span{font-size:1.5rem}.home .impact-stat small{font-size:.65rem}.home .home-involved .involve-grid{grid-template-columns:1fr 1fr}.home .home-partners .partners img{max-width:110px;height:38px}.home .home-newsletter{grid-template-columns:1fr}.home .home-footer{grid-template-columns:1fr 1fr}.home .home-legal{flex-wrap:wrap}}
 @media(max-width:440px){.home .home-involved .involve-grid{grid-template-columns:1fr}.home .home-footer{grid-template-columns:1fr}}
+
+/* Our Impact: four measurable categories plus mission message. */
+@media(min-width:1101px){.home .home-impact{grid-template-columns:1.15fr repeat(4,minmax(0,1fr)) 1.1fr;gap:12px}}
+.home .home-impact .impact-stat small{line-height:1.25}
