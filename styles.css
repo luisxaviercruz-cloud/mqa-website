@@ -205,3 +205,7 @@
 /* Slightly larger What We Do program/card names; keep all other sizing. */
 .home .what-we-do .feature h3{font-size:1.16rem;line-height:1.18}
 @media(min-width:1001px){.home .what-we-do .feature h3{font-size:1.16rem}}
+
+/* Youth Leadership & Development: match approved square photo tile styling. */
+.home .what-we-do .feature.youth-feature{background-image:linear-gradient(to top,rgba(1,12,27,1) 0%,rgba(1,12,27,.97) 27%,rgba(1,19,36,.48) 51%,rgba(1,19,36,0) 82%),url('community-groups/Untitled - August 02, 2026 at 14.02.14-3.png')}
+@media(min-width:1001px){.home .what-we-do .feature-grid{grid-template-columns:repeat(3,minmax(0,240px))}}
