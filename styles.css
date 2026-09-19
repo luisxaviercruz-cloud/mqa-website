@@ -215,3 +215,7 @@
 
 /* Bring What We Do squares a little closer together, preserving sizes. */
 @media(min-width:1001px){.home .what-we-do .feature-grid{gap:7px}}
+
+/* Visible tighter grouping: five 240px square tiles centered, 4px apart. */
+@media(min-width:1250px){.home .what-we-do .feature-grid{grid-template-columns:repeat(5,240px);gap:4px;max-width:1216px;justify-content:center}}
+@media(min-width:1001px) and (max-width:1249px){.home .what-we-do .feature-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:4px;max-width:100%}}
