@@ -4,13 +4,13 @@
 
 /* Homepage — single consolidated rule set */
 .home .site-header{min-height:88px;height:auto;border-bottom:1px solid #edf0f4;box-shadow:0 2px 12px rgba(3,31,59,.04)}
-.home .hero{min-height:430px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:stretch;overflow:hidden;background:var(--navy2);color:#fff}
+.home .hero{min-height:430px;display:grid;grid-template-columns:minmax(0,50%) minmax(0,50%);align-items:stretch;overflow:hidden;background:var(--navy2);color:#fff}
 .home .hero-copy{min-height:430px;display:flex;flex-direction:column;justify-content:center;padding-top:44px;padding-bottom:44px}
 .home .hero .script{font-size:1.8rem}
 .home .hero h1{font-size:clamp(3.1rem,5vw,5.2rem);max-width:680px}
 .home .hero p{font-size:1.05rem;line-height:1.55;max-width:650px}
 .home .hero-media{position:relative;height:430px;min-height:430px;overflow:hidden;background:#062744}
-.home .hero-photo-clean{position:absolute;inset:0;background:url('assets/home-hero-reference.jpg') right center/auto 100% no-repeat}
+.home .hero-photo-clean{position:absolute;inset:0;background:url('assets/home-hero-reference.jpg') 100% 50%/auto 100% no-repeat;transform:scale(1.52);transform-origin:right center}
 .home .hero-belong{position:absolute;right:5%;top:8%;z-index:2;font-family:"Segoe Print","Bradley Hand",cursive;font-size:2rem;line-height:1.05;color:#fff;text-align:center;text-shadow:0 2px 14px rgba(0,0,0,.45);transform:rotate(-3deg)}
 .home .hero-belong span{display:block;color:#ff4ba3;font-size:1.7rem;margin-top:6px}
 .home .section{padding-top:52px;padding-bottom:52px}
@@ -47,7 +47,7 @@
  .home .hero{display:flex;flex-direction:column;min-height:0}
  .home .hero-copy{min-height:0;height:auto;padding:38px 28px}
  .home .hero-media{height:300px;min-height:300px}
- .home .hero-photo-clean{background-position:right center;background-size:auto 100%}
+ .home .hero-photo-clean{background-position:right center;background-size:auto 100%;transform:scale(1.52);transform-origin:right center}
  .home .hero-belong{display:none}
  .home .event-card{grid-template-columns:58px 1fr}
  .home .event-card img{display:none}
