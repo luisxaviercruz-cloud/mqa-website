@@ -193,3 +193,11 @@
 
 /* What We Do: smaller square cards, centered in the existing four-card row. */
 @media(min-width:1001px){.home .what-we-do .feature-grid{grid-template-columns:repeat(4,minmax(0,240px));justify-content:center;gap:14px}.home .what-we-do .feature{width:100%;aspect-ratio:1 / 1;min-height:0;padding:45px 12px 12px}.home .what-we-do .feature h3{font-size:.98rem}.home .what-we-do .feature p{font-size:.69rem;line-height:1.25}.home .what-we-do .feature a{font-size:.7rem}.home .what-we-do .feature-icon{font-size:1.5rem}}
+
+/* What We Do: larger icons and a dark-bottom fade that reveals the photo above. */
+.home .what-we-do .feature-icon{font-size:2.35rem;line-height:1.05;margin-bottom:6px}
+.home .what-we-do .feature:nth-child(1){background-image:linear-gradient(to top,rgba(1,19,36,.99) 0%,rgba(1,19,36,.92) 23%,rgba(1,19,36,.48) 51%,rgba(1,19,36,0) 82%),url('community-groups/Untitled - August 02, 2026 at 14.02.14-3.png')}
+.home .what-we-do .feature:nth-child(2){background-image:linear-gradient(to top,rgba(1,19,36,.99) 0%,rgba(1,19,36,.92) 23%,rgba(1,19,36,.48) 51%,rgba(1,19,36,0) 82%),url('initiatives/Latin Pride Project Banner 2024-1.jpeg')}
+.home .what-we-do .feature:nth-child(3){background-image:linear-gradient(to top,rgba(1,19,36,.99) 0%,rgba(1,19,36,.92) 23%,rgba(1,19,36,.48) 51%,rgba(1,19,36,0) 82%),url('community-groups/ACF81201-5AFB-4E0A-98D0-82ED9975A2BB.JPEG')}
+.home .what-we-do .feature:nth-child(4){background-image:linear-gradient(to top,rgba(1,19,36,.99) 0%,rgba(1,19,36,.92) 23%,rgba(1,19,36,.48) 51%,rgba(1,19,36,0) 82%),url('community-groups/43075409-92D9-430F-ACE2-BFEA7BEDB483.PNG')}
+@media(min-width:1001px){.home .what-we-do .feature-icon{font-size:2.35rem}}
