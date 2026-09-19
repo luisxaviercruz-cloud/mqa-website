@@ -209,3 +209,6 @@
 /* Youth Leadership & Development: match approved square photo tile styling. */
 .home .what-we-do .feature.youth-feature{background-image:linear-gradient(to top,rgba(1,12,27,1) 0%,rgba(1,12,27,.97) 27%,rgba(1,19,36,.48) 51%,rgba(1,19,36,0) 82%),url('community-groups/Untitled - August 02, 2026 at 14.02.14-3.png')}
 @media(min-width:1001px){.home .what-we-do .feature-grid{grid-template-columns:repeat(3,minmax(0,240px))}}
+
+/* Keep all five What We Do squares side by side on desktop. */
+@media(min-width:1001px){.home .what-we-do .feature-grid{grid-template-columns:repeat(5,minmax(0,1fr));max-width:1260px;margin-inline:auto;gap:12px}.home .what-we-do .feature{width:100%;min-width:0;aspect-ratio:1/1}}
