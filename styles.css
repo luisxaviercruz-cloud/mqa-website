@@ -103,13 +103,17 @@
  .home .hero-belong{right:5% !important;top:7% !important;font-size:1.55rem !important;line-height:.98 !important}
 }
 
-/* Approved hero: photo overlaps the navy panel beneath a broad, soft fade. */
+/* Homepage hero: one continuous photo layer with a true navy-to-photo blend. */
 @media(min-width:761px){
- .home .hero{isolation:isolate}
- .home .hero-copy{position:relative;z-index:2}
- .home .hero-media{margin-left:-140px;width:calc(100% + 140px);z-index:1}
- .home .hero-media::before{content:"";position:absolute;inset:0 auto 0 0;width:260px;z-index:1;pointer-events:none;background:linear-gradient(90deg,var(--navy2) 0%,var(--navy2) 9%,rgba(3,31,59,.96) 22%,rgba(3,31,59,.75) 43%,rgba(3,31,59,.38) 67%,rgba(3,31,59,0) 100%)}
+ .home .hero{position:relative;isolation:isolate;display:grid !important;grid-template-columns:40% 60% !important;background:var(--navy2)}
+ .home .hero-media{position:absolute !important;inset:0 0 0 auto !important;margin:0 !important;width:70% !important;height:100% !important;min-height:0 !important;overflow:hidden;z-index:0 !important}
+ .home .hero-real-photo{width:100% !important;height:100% !important;object-fit:cover !important;object-position:center 45% !important}
+ .home .hero-media::before{display:none !important}
+ .home .hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,var(--navy2) 0%,var(--navy2) 30%,rgba(3,31,59,.97) 36%,rgba(3,31,59,.82) 42%,rgba(3,31,59,.48) 50%,rgba(3,31,59,.14) 59%,rgba(3,31,59,0) 69%)}
+ .home .hero-copy{position:relative !important;grid-column:1;z-index:2 !important;background:transparent !important}
+ .home .hero-belong{z-index:3 !important}
 }
 @media(max-width:760px){
+ .home .hero-copy{background:var(--navy2) !important}
  .home .hero-media::before{content:"";position:absolute;inset:0 0 auto;height:90px;z-index:1;pointer-events:none;background:linear-gradient(180deg,var(--navy2),rgba(3,31,59,0))}
 }
