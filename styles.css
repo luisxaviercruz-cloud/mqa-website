@@ -114,3 +114,28 @@
   .home .hero-media>img{width:100%;height:auto;object-fit:contain}
   .home .hero-media .hero-belong{display:none}
 }
+
+
+/* Fix duplicated hero: reference JPG already contains the full designed hero */
+.home .hero{
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+  min-height:430px !important;
+}
+.home .hero-media{
+  height:430px !important;
+  min-height:430px !important;
+  overflow:hidden !important;
+}
+.home .hero-media>img{
+  width:100% !important;
+  height:100% !important;
+  object-fit:cover !important;
+  object-position:72% center !important;
+}
+.home .hero-media .hero-belong{display:none !important;}
+@media(max-width:760px){
+  .home .hero{display:block !important;min-height:0 !important;}
+  .home .hero-copy{position:relative !important;}
+  .home .hero-media{height:300px !important;min-height:300px !important;}
+  .home .hero-media>img{object-fit:cover !important;object-position:72% center !important;}
+}
