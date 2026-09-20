@@ -445,3 +445,6 @@
 /* Match Latin Pride hero height to the Initiatives hero */
 @media(min-width:721px){.latin-pride-hero{height:355px;min-height:355px}.latin-pride-hero-copy{max-height:100%;}.latin-pride-breadcrumb{margin-bottom:10px}.latin-pride-hero-copy>p:not(.latin-pride-breadcrumb){line-height:1.28;margin-bottom:10px}}
 @media(max-width:720px){.latin-pride-hero{min-height:400px}}
+
+/* Keep Latin Pride Project hero title on one line at desktop widths */
+@media(min-width:721px){.latin-pride-hero-copy{width:min(55%,690px)}.latin-pride-hero h1{font-size:clamp(2rem,3.7vw,3.35rem);white-space:nowrap}}
