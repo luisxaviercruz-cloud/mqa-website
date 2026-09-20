@@ -421,3 +421,16 @@
 .programs-reference-cards .programs-reference-card{display:flex;flex-direction:column}
 .programs-reference-cards .programs-reference-card>div{display:flex;flex:1;flex-direction:column}
 .programs-reference-cards .programs-reference-card .programs-launch{display:block;align-self:stretch;margin-top:auto;padding:12px 10px;text-align:center;font-size:1.05rem;line-height:1.3;font-weight:800}
+
+/* Initiatives hero — reference layout */
+.initiatives-reference-hero{position:relative;isolation:isolate;box-sizing:border-box;min-height:355px;padding:23px max(36px,calc((100% - 1250px)/2));display:flex;align-items:center;justify-content:space-between;gap:24px;overflow:hidden;color:#fff;background:linear-gradient(90deg,rgba(5,24,43,.98) 0%,rgba(5,24,43,.91) 25%,rgba(5,24,43,.38) 48%,rgba(5,24,43,.08) 72%,rgba(5,24,43,.52) 100%),url('photos/our%20initiatives%20hero.png') center 48%/cover no-repeat}
+.initiatives-hero-copy{position:relative;z-index:1;width:min(49%,590px)}
+.initiatives-breadcrumb{font-size:.78rem;margin:0 0 9px}.initiatives-breadcrumb a{color:inherit;text-decoration:none}
+.initiatives-reference-hero h1{font-size:clamp(2.5rem,5vw,4.4rem);line-height:1;margin:0 0 6px;color:#fff}
+.initiatives-reference-hero h2{font-size:clamp(1.15rem,2.1vw,1.65rem);line-height:1.16;font-weight:500;margin:0 0 8px;color:#fff}
+.initiatives-hero-copy>p:not(.initiatives-breadcrumb){font-size:clamp(.87rem,1.2vw,1rem);line-height:1.38;margin:0 0 14px;max-width:485px}
+.initiatives-hero-actions{display:flex;gap:12px;flex-wrap:wrap}.initiatives-hero-actions .btn{min-width:140px;text-align:center}
+.initiatives-hero-tagline{font-size:.64rem;letter-spacing:.24em;font-weight:800;margin-top:15px}
+.initiatives-hero-motto{position:relative;z-index:1;text-align:center;transform:rotate(-9deg);font-family:cursive;font-style:italic;font-size:clamp(1.2rem,2.1vw,2rem);line-height:1.02;text-shadow:0 2px 6px #142337;flex-shrink:0}.initiatives-hero-motto span{display:block;color:#f43a8b;font:normal 2.5rem sans-serif;transform:rotate(12deg)}
+@media(max-width:720px){.initiatives-reference-hero{min-height:400px;padding:25px 22px;background-position:58% center}.initiatives-hero-copy{width:80%}.initiatives-hero-motto{font-size:1rem;align-self:flex-start;margin-top:22px}.initiatives-hero-tagline{font-size:.55rem;letter-spacing:.12em}}
+@media(max-width:480px){.initiatives-reference-hero{background-position:58% center}.initiatives-hero-copy{width:100%}.initiatives-hero-motto{display:none}}
