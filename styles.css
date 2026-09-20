@@ -395,3 +395,6 @@
 
 /* Uploaded rainbow brushstroke behind the final community message only */
 .community-joint-end{background: url('photos/community-rainbow-brush.png') center/100% 100% no-repeat;min-height:105px;display:flex;align-items:center;justify-content:center;color:#102653;text-shadow:0 1px 3px rgba(255,255,255,.8)}
+
+/* Find Your Community: text and buttons only, no photo */
+.community-find-banner{background:#092b46;color:#fff;min-height:145px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px max(28px,calc((100% - 1200px)/2));box-sizing:border-box}.community-find-copy{max-width:580px}.community-find-copy h2{color:#fff;font-size:1.55rem;line-height:1.1;margin:0 0 5px}.community-find-copy p{font-size:.9rem;line-height:1.35;margin:0 0 11px}.community-find-actions{display:flex;gap:10px;flex-wrap:wrap}.community-find-actions .btn{padding:9px 18px;font-size:.84rem}.community-find-script{font-family:cursive;font-style:italic;font-size:1.6rem;line-height:1.08;transform:rotate(-8deg);text-align:center;flex:0 0 auto}.community-find-script span{color:#ee1683;text-shadow:3px 2px #ffcd28,-3px 2px #28abc4}@media(max-width:600px){.community-find-banner{padding:25px 20px;align-items:flex-start;flex-direction:column}.community-find-script{align-self:flex-end;font-size:1.35rem}}
