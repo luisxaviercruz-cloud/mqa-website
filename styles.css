@@ -510,3 +510,6 @@
 .lp-end p{font-size:clamp(1.5rem,2.3vw,2.3rem)}
 @media(max-width:850px){.lp-top{grid-template-columns:1fr}.lp-top .lp-founder{grid-template-columns:minmax(0,1.4fr) minmax(140px,.75fr)}.lp-founder-photo img{height:340px}.lp-slides{height:clamp(260px,55vw,450px)}.lp-history-layout{grid-template-columns:1fr}.lp-mid{grid-template-columns:1fr}.lp-cafe{grid-template-columns:33% 1fr}}
 @media(max-width:480px){.lp-page .lp-wrap{width:calc(100% - 28px)}.lp-top .lp-founder{grid-template-columns:1fr 105px;gap:12px}.lp-founder-photo img{height:190px}.lp-founder-copy h2{font-size:1.65rem}.lp-founder-copy p{font-size:.82rem}.lp-timeline{grid-template-columns:1fr}.lp-mid .lp-join-grid{grid-template-columns:1fr}.lp-cafe{grid-template-columns:1fr}.lp-cafe>img{height:190px}.lp-cafe>div{padding:20px}}
+
+/* Four milestones in the Latin Pride timeline */
+.lp-timeline{grid-template-columns:repeat(4,minmax(0,1fr))}.lp-timeline article:nth-child(3):before{background:#1469ae}.lp-timeline article:nth-child(4):before{background:#7435a2}.lp-timeline article:nth-child(4) .lp-year{color:#7435a2}.lp-timeline article:nth-child(4) .lp-year{font-size:clamp(.75rem,.85vw,.96rem)}@media(max-width:480px){.lp-timeline{grid-template-columns:1fr}}
