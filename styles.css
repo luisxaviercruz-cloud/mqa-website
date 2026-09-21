@@ -551,3 +551,6 @@
 
 /* Restore the approved white-and-gold one-line BLK hero title. */
 .blk-hero h1 span{display:inline;color:#f8c34c}.blk-hero h1{white-space:nowrap}
+
+/* BLK-Queer closing banner spans the full viewport, matching the hero. */
+.blk-finale{width:100vw;max-width:none;position:relative;left:50%;margin-left:-50vw;margin-right:0}
