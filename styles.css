@@ -536,3 +536,6 @@
 .lp-sponsor-item{height:265px}
 .lp-sponsor-item img{flex-shrink:0}
 @media(max-width:480px){.lp-sponsor-item{height:215px}}
+
+/* Seamless one-direction sponsor marquee: two identical groups, no reversing. */
+.lp-sponsor-carousel{display:block;overflow:hidden}.lp-sponsor-window{width:100%;overflow:hidden;scroll-snap-type:none;padding:14px 0}.lp-sponsor-track{display:flex;gap:0;padding:0;width:max-content;animation:lp-sponsor-marquee 34s linear infinite;will-change:transform}.lp-sponsor-group{display:flex;gap:16px;flex:none;padding-right:16px}.lp-sponsor-item{flex:none}@keyframes lp-sponsor-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}@media(prefers-reduced-motion:reduce){.lp-sponsor-track{animation:none}.lp-sponsor-window{overflow-x:auto}}
