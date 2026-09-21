@@ -519,3 +519,8 @@
 
 /* Sponsor logo orientation and full-logo visibility */
 .lp-sponsor-item{width:clamp(180px,20vw,270px);height:150px;padding:14px;overflow:visible}.lp-sponsor-item img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center}.lp-sponsor-item .lp-sponsor-hot{transform:rotate(180deg);width:90%;height:90%}.lp-sponsor-item .lp-sponsor-sol,.lp-sponsor-item .lp-sponsor-colors{width:100%;height:100%;object-fit:contain}@media(max-width:480px){.lp-sponsor-item{width:185px;height:130px;padding:10px}}
+
+/* Keep every sponsor's complete original artwork visible at a consistent display size. */
+.lp-sponsor-item{width:clamp(210px,22vw,290px);height:170px;padding:12px;overflow:hidden;box-sizing:border-box}
+.lp-sponsor-item img,.lp-sponsor-item .lp-sponsor-sol,.lp-sponsor-item .lp-sponsor-colors,.lp-sponsor-item .lp-sponsor-hot{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center;transform:none;clip-path:none}
+@media(max-width:480px){.lp-sponsor-item{width:205px;height:145px;padding:10px}}
