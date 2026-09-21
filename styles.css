@@ -531,3 +531,8 @@
 /* Taller Latin Pride sponsor cards, retaining complete logo proportions. */
 .lp-sponsor-item{height:215px}
 @media(max-width:480px){.lp-sponsor-item{height:175px}}
+
+/* Increase sponsor CARD height only; preserve each logo's existing scale. */
+.lp-sponsor-item{height:265px}
+.lp-sponsor-item img{flex-shrink:0}
+@media(max-width:480px){.lp-sponsor-item{height:215px}}
