@@ -548,3 +548,6 @@
 
 /* Keep the BLK-Queer Collective hero heading on one line on desktop. */
 .blk-hero h1{font-size:clamp(24px,3.15vw,48px);letter-spacing:-.055em;white-space:nowrap;color:#fff}.blk-hero-copy{max-width:none}.blk-hero-inner{grid-template-columns:minmax(0,1.25fr) minmax(180px,.7fr) 100px;gap:clamp(10px,2vw,30px)}@media(max-width:780px){.blk-hero-inner{grid-template-columns:1fr auto}.blk-hero h1{font-size:clamp(21px,5.2vw,39px);white-space:normal}}@media(min-width:781px) and (max-width:1100px){.blk-hero h1{font-size:clamp(24px,3vw,34px)}}
+
+/* Restore the approved white-and-gold one-line BLK hero title. */
+.blk-hero h1 span{display:inline;color:#f8c34c}.blk-hero h1{white-space:nowrap}
