@@ -527,3 +527,7 @@
 
 /* Balance the visual size of the Colors+ and SOL logos with other sponsors. */
 .lp-sponsor-item .lp-sponsor-colors,.lp-sponsor-item .lp-sponsor-sol{width:72%;height:72%;max-width:72%;max-height:72%;margin:auto;object-fit:contain}
+
+/* Taller Latin Pride sponsor cards, retaining complete logo proportions. */
+.lp-sponsor-item{height:215px}
+@media(max-width:480px){.lp-sponsor-item{height:175px}}
