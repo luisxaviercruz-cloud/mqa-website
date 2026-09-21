@@ -554,3 +554,6 @@
 
 /* BLK-Queer closing banner spans the full viewport, matching the hero. */
 .blk-finale{width:100vw;max-width:none;position:relative;left:50%;margin-left:-50vw;margin-right:0}
+
+/* Crop the Kickbacks group photo around the people, minimizing ceiling and floor. */
+.blk-kickbacks-photo{overflow:hidden}.blk-kickbacks-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 38%}
