@@ -562,3 +562,7 @@
 .blk-bottom-row .blk-kickbacks-photo{position:relative;overflow:hidden;height:310px;min-height:0;align-self:center}
 .blk-bottom-row .blk-kickbacks-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 48%;transform:scale(1.24);transform-origin:50% 48%}
 @media(max-width:780px){.blk-bottom-row .blk-kickbacks-photo{height:280px}}
+
+/* Initiatives: three matching cards across on desktop; responsive on smaller screens. */
+@media(min-width:1050px){.initiatives-showcase-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.initiatives-feature-photo{height:190px}.initiatives-feature h3{font-size:clamp(1.3rem,1.8vw,1.75rem)}.initiatives-photo-script{font-size:clamp(1rem,1.4vw,1.4rem)}}
+.initiatives-feature.friendsgiving{background:#fff0e5}.friendsgiving-photo-art{width:76%;height:100%;min-width:0;border-radius:8px;background:radial-gradient(circle at 85% 20%,#f9ca88 0 9%,transparent 10%),radial-gradient(circle at 14% 80%,#f3bd88 0 11%,transparent 12%),linear-gradient(145deg,#763d48,#b85d54 60%,#df965c);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:12px;padding:12px;box-sizing:border-box}.friendsgiving-photo-art strong{font-size:clamp(1.2rem,2vw,2rem);line-height:1.12}.friendsgiving-photo-art span{font-size:.7rem;letter-spacing:.13em;font-weight:700}
