@@ -584,3 +584,7 @@
 .fg-involved>div{max-width:1400px;margin:22px auto 0}
 .fg-involved a{background:#fff3df;color:#542d20;border:2px solid #8b472b}
 @media(max-width:850px){.fg-sponsors,.fg-involved{padding:30px 24px!important}}
+
+/* Larger Friendsgiving hero title */
+.fg-hero h1{font-size:clamp(5.5rem,12vw,10rem)!important;line-height:.82}
+@media(max-width:850px){.fg-hero h1{font-size:clamp(4.2rem,18vw,7rem)!important}}
