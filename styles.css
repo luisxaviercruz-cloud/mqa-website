@@ -640,3 +640,11 @@
  .fg-involved-mock .fg-help-card{width:100%!important;max-width:none!important;height:255px!important;min-height:255px!important;padding-left:30px!important;padding-right:30px!important}
  .fg-involved-mock .fg-help-card p{max-width:440px!important}
 }
+
+/* Keep all Community Donations content and CTA inside its card */
+@media (min-width:901px){
+ .fg-involved-mock .fg-help-card{height:auto!important;min-height:275px!important;box-sizing:border-box!important;overflow:hidden!important}
+ .fg-involved-mock .fg-help-card.community{padding-bottom:18px!important}
+ .fg-involved-mock .fg-help-card.community em{margin-top:auto!important;flex-shrink:0!important}
+ .fg-involved-mock .fg-help-card.community small{margin-top:8px!important;flex-shrink:0!important}
+}
