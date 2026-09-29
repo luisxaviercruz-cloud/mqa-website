@@ -693,3 +693,13 @@
  .fg-involved-mock .fg-help-icon{font-size:2rem!important}
  .fg-involved-mock .fg-help-card small{padding-top:9px!important;padding-bottom:9px!important}
 }
+
+/* Make the three Friendsgiving Get Involved cards more compact */
+@media (min-width:901px){
+ .fg-involved-mock .fg-help-card{min-height:195px!important;padding-top:11px!important;padding-bottom:11px!important;gap:3px!important}
+ .fg-involved-mock .fg-help-icon{font-size:1.7rem!important;line-height:1!important}
+ .fg-involved-mock .fg-help-card strong{font-size:1.22rem!important}
+ .fg-involved-mock .fg-help-card>p{font-size:.93rem!important;line-height:1.22!important;margin:0 auto 2px!important}
+ .fg-involved-mock .fg-help-card em{padding:4px 12px!important}
+ .fg-involved-mock .fg-help-card small{padding-top:7px!important;padding-bottom:7px!important}
+}
