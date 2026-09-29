@@ -703,3 +703,14 @@
  .fg-involved-mock .fg-help-card em{padding:4px 12px!important}
  .fg-involved-mock .fg-help-card small{padding-top:7px!important;padding-bottom:7px!important}
 }
+
+/* Extra compact Friendsgiving Get Involved cards */
+@media (min-width:901px){
+ .fg-involved-mock .fg-help-card{min-height:165px!important;padding:8px 24px!important;gap:2px!important}
+ .fg-involved-mock .fg-help-icon{font-size:1.45rem!important}
+ .fg-involved-mock .fg-help-card strong{font-size:1.12rem!important}
+ .fg-involved-mock .fg-help-card>span:not(.fg-help-icon){font-size:.88rem!important}
+ .fg-involved-mock .fg-help-card>p{font-size:.86rem!important;line-height:1.15!important;margin:0 auto!important}
+ .fg-involved-mock .fg-help-card em{padding:3px 10px!important;font-size:.7rem!important}
+ .fg-involved-mock .fg-help-card small{padding:6px 8px!important;font-size:.8rem!important}
+}
