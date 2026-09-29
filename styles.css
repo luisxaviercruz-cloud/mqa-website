@@ -657,3 +657,8 @@
 .fg-milestone-title{display:block!important;white-space:nowrap!important}
 .fg-milestone-date{display:block!important}
 @media(max-width:420px){.fg-milestone-title{white-space:normal!important}}
+
+/* Final consistent Friendsgiving milestone heading layout */
+.fg-milestones article b{display:flex!important;flex-direction:column!important;align-items:center!important;gap:2px!important;width:100%!important}
+.fg-milestones article .fg-milestone-title{display:block!important;white-space:nowrap!important;line-height:1.2!important}
+.fg-milestones article .fg-milestone-date{display:block!important;white-space:nowrap!important;line-height:1.2!important}
