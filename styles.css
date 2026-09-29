@@ -662,3 +662,15 @@
 .fg-milestones article b{display:flex!important;flex-direction:column!important;align-items:center!important;gap:2px!important;width:100%!important}
 .fg-milestones article .fg-milestone-title{display:block!important;white-space:nowrap!important;line-height:1.2!important}
 .fg-milestones article .fg-milestone-date{display:block!important;white-space:nowrap!important;line-height:1.2!important}
+
+/* Keep the two longer Friendsgiving milestone titles on one line */
+.fg-milestones article .fg-long-title{
+ white-space:nowrap!important;
+ width:max-content!important;
+ max-width:none!important;
+ font-size:1rem!important;
+ letter-spacing:-.01em!important;
+}
+@media (min-width:701px){
+ .fg-milestones{grid-template-columns:minmax(0,.8fr) minmax(240px,1.1fr) minmax(240px,1.1fr)!important}
+}
