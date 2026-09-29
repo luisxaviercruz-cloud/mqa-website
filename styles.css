@@ -674,3 +674,14 @@
 @media (min-width:701px){
  .fg-milestones{grid-template-columns:minmax(0,.8fr) minmax(240px,1.1fr) minmax(240px,1.1fr)!important}
 }
+
+/* Milestone layout correction: preserve full title lines at all page widths */
+.fg-milestones{grid-template-columns:repeat(3,minmax(250px,1fr))!important}
+.fg-milestones article{min-width:0!important}
+.fg-milestones article .fg-milestone-title,
+.fg-milestones article .fg-long-title{white-space:nowrap!important;width:auto!important;max-width:none!important;font-size:1.12rem!important;letter-spacing:normal!important}
+@media(max-width:850px){
+ .fg-milestones{grid-template-columns:1fr!important}
+ .fg-milestones article .fg-milestone-title,
+ .fg-milestones article .fg-long-title{white-space:nowrap!important}
+}
