@@ -609,3 +609,10 @@
  .fg-involved-mock .fg-help-grid{display:flex!important;justify-content:center!important;align-items:stretch!important;gap:20px!important;width:100%!important;max-width:1000px!important;margin-left:auto!important;margin-right:auto!important}
  .fg-involved-mock .fg-help-card{flex:0 0 280px!important;width:280px!important;max-width:280px!important;min-width:280px!important;min-height:390px!important;height:auto!important;box-sizing:border-box!important}
 }
+
+/* Friendsgiving cards: wide and shorter, equal sizing */
+@media (min-width:901px){
+ .fg-involved-mock .fg-help-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;max-width:1250px!important;width:100%!important;gap:18px!important;margin-left:auto!important;margin-right:auto!important}
+ .fg-involved-mock .fg-help-card{width:100%!important;max-width:none!important;min-width:0!important;min-height:285px!important;height:285px!important;padding:20px 24px!important}
+ .fg-involved-mock .fg-help-card p{max-width:330px!important}
+}
