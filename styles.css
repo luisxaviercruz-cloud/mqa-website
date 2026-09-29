@@ -651,3 +651,9 @@
 
 /* Community Donations card uses the same fall palette as the other cards */
 .fg-involved-mock .fg-help-card.community{outline:none!important;border-color:#ead8bd!important}
+
+/* Friendsgiving milestone title/date formatting */
+.fg-milestones b{display:flex!important;flex-direction:column!important;align-items:center!important;gap:2px!important}
+.fg-milestone-title{display:block!important;white-space:nowrap!important}
+.fg-milestone-date{display:block!important}
+@media(max-width:420px){.fg-milestone-title{white-space:normal!important}}
