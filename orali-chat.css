@@ -1,0 +1,28 @@
+/* Orali community support popup — isolated from site components */
+#orali-chat-root{font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5;color:#261a40;position:relative;z-index:9998}
+#orali-chat-root *{box-sizing:border-box}
+#orali-chat-root .orali-launch{position:fixed;right:22px;bottom:22px;display:flex;align-items:center;gap:9px;background:#51278c;border:2px solid white;border-radius:999px;color:white;padding:8px 17px 8px 8px;box-shadow:0 7px 24px #27134c6b;cursor:pointer;font-weight:700}
+#orali-chat-root .orali-launch-avatar,#orali-chat-root .orali-avatar{display:block;flex:none;border-radius:50%;background-color:#fff;background-image:url('https://dynamic.heygen.ai/image/bbe89e30498346579428817c357acf26/original.jpg');background-repeat:no-repeat;background-size:550% auto;background-position:98% 75%;border:2px solid #fff}
+#orali-chat-root .orali-launch-avatar{width:42px;height:42px}
+#orali-chat-root .orali-avatar{width:54px;height:54px}
+#orali-chat-root .orali-panel{position:fixed;right:22px;bottom:91px;width:min(410px,calc(100vw - 28px));height:min(625px,calc(100dvh - 112px));background:white;border:1px solid #ddd2ee;border-radius:20px;box-shadow:0 14px 52px #2e1e5066;display:flex;flex-direction:column;overflow:hidden}
+#orali-chat-root .orali-panel[hidden]{display:none}
+#orali-chat-root .orali-head{background:#51278c;color:#fff;padding:12px;display:flex;gap:10px;align-items:center}
+#orali-chat-root .orali-head-name{flex:1;min-width:0}
+#orali-chat-root .orali-head-name strong,#orali-chat-root .orali-head-name small{display:block;color:white}
+#orali-chat-root .orali-head-name small{font-size:11px;opacity:.9}
+#orali-chat-root .orali-language,#orali-chat-root .orali-close{background:#704aac;color:#fff;border:0;border-radius:8px;padding:7px;cursor:pointer}
+#orali-chat-root .orali-close{font-size:25px;line-height:1}
+#orali-chat-root .orali-messages{padding:17px 13px;overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+#orali-chat-root .orali-bubble{background:#f3eefb;border-radius:15px;padding:11px 13px;max-width:94%;white-space:pre-wrap;overflow-wrap:anywhere}
+#orali-chat-root .orali-bubble.visitor{align-self:flex-end;background:#e4d1fb}
+#orali-chat-root .orali-link{display:block;margin-top:9px;color:#4e2187;font-weight:700;text-decoration:underline}
+#orali-chat-root .orali-choices{padding:10px 12px;display:grid;grid-template-columns:1fr 1fr;gap:7px}
+#orali-chat-root .orali-choices button{border:1px solid #c5b4e3;background:white;color:#51278c;border-radius:12px;padding:9px 7px;font-weight:700;font-size:12px;cursor:pointer}
+#orali-chat-root .orali-form{display:flex;gap:7px;padding:9px 12px}
+#orali-chat-root .orali-form input{flex:1;min-width:0;border:1px solid #bdb4cd;border-radius:100px;padding:10px 13px;color:#241641;font-size:14px}
+#orali-chat-root .orali-form button{background:#51278c;color:white;border:0;border-radius:50%;width:43px;cursor:pointer}
+#orali-chat-root .orali-disclaimer{font-size:10px;color:#625773;padding:0 13px 11px;margin:0}
+#orali-chat-root .orali-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+#orali-chat-root button:focus-visible,#orali-chat-root a:focus-visible,#orali-chat-root input:focus-visible{outline:3px solid #e6b640;outline-offset:2px}
+@media(max-width:520px){#orali-chat-root .orali-launch{right:12px;bottom:12px}#orali-chat-root .orali-panel{right:9px;bottom:79px;width:calc(100vw - 18px);height:min(640px,calc(100dvh - 92px))}}
