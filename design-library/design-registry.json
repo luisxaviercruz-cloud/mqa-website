@@ -1,0 +1,343 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "development",
+  "source": {
+    "repository": "luisxaviercruz-cloud/mqa-website",
+    "branch": "main",
+    "policy": "Source HTML/CSS/JS and existing assets are read-only references; registry entries do not modify them."
+  },
+  "templates": [
+    {
+      "id": "cafe-y-coraje",
+      "name": "Café y Coraje",
+      "source": "cafe-y-coraje.html",
+      "family": "community",
+      "palette": "cafe",
+      "editable": [
+        "title",
+        "description",
+        "images",
+        "cards",
+        "registration",
+        "sections"
+      ]
+    },
+    {
+      "id": "qtbipoc",
+      "name": "QTBIPOC",
+      "source": "qtbipoc-kickbacks.html",
+      "family": "community",
+      "palette": "qtbipoc",
+      "editable": [
+        "title",
+        "description",
+        "images",
+        "cards",
+        "registration",
+        "sections"
+      ]
+    },
+    {
+      "id": "friendsgiving",
+      "name": "Friendsgiving",
+      "source": "friendsgiving.html",
+      "family": "initiative",
+      "palette": "friendsgiving",
+      "editable": [
+        "title",
+        "description",
+        "images",
+        "sponsors",
+        "sections"
+      ]
+    },
+    {
+      "id": "events",
+      "name": "Events",
+      "source": "events.html",
+      "family": "events",
+      "palette": "events",
+      "editable": [
+        "title",
+        "description",
+        "eventCards",
+        "images",
+        "sections"
+      ]
+    },
+    {
+      "id": "vibe-thrive",
+      "name": "Vibe & Thrive",
+      "source": "vibe-thrive.html",
+      "family": "initiative",
+      "palette": "vibeThrive",
+      "editable": [
+        "title",
+        "description",
+        "images",
+        "pillars",
+        "sections"
+      ]
+    },
+    {
+      "id": "general",
+      "name": "General MQA+",
+      "source": "about.html",
+      "additionalReferences": [
+        "index.html",
+        "programs.html",
+        "resources.html",
+        "partners.html"
+      ],
+      "family": "general",
+      "palette": "core",
+      "editable": [
+        "title",
+        "description",
+        "images",
+        "cards",
+        "sections"
+      ]
+    }
+  ],
+  "palettes": {
+    "core": [
+      [
+        "Navy",
+        "#082c55"
+      ],
+      [
+        "Deep navy",
+        "#031f3b"
+      ],
+      [
+        "Pink",
+        "#ef007b"
+      ],
+      [
+        "Blue",
+        "#1167bd"
+      ],
+      [
+        "Green",
+        "#14864f"
+      ],
+      [
+        "Purple",
+        "#8123b8"
+      ],
+      [
+        "Ink",
+        "#092b56"
+      ],
+      [
+        "White",
+        "#ffffff"
+      ],
+      [
+        "Soft white",
+        "#f8f8fb"
+      ]
+    ],
+    "cafe": [
+      [
+        "Hero navy",
+        "#082c4a"
+      ],
+      [
+        "Accent pink",
+        "#f56da8"
+      ],
+      [
+        "Dark pink",
+        "#a61766"
+      ],
+      [
+        "Pale pink",
+        "#fff1f7"
+      ]
+    ],
+    "qtbipoc": [
+      [
+        "Hero purple",
+        "#34133e"
+      ],
+      [
+        "Gold",
+        "#f3c15e"
+      ],
+      [
+        "Purple",
+        "#652178"
+      ],
+      [
+        "Cream",
+        "#fff8eb"
+      ]
+    ],
+    "friendsgiving": [
+      [
+        "Deep navy",
+        "#102747"
+      ],
+      [
+        "Brown",
+        "#7b3f27"
+      ],
+      [
+        "Peach",
+        "#f2c39e"
+      ],
+      [
+        "Cream",
+        "#f9eadf"
+      ],
+      [
+        "Copper",
+        "#a85d37"
+      ]
+    ],
+    "events": [
+      [
+        "Hero navy",
+        "#101e50"
+      ],
+      [
+        "Blue",
+        "#264d85"
+      ],
+      [
+        "Pink",
+        "#ff70b8"
+      ],
+      [
+        "Yellow",
+        "#ffd35a"
+      ],
+      [
+        "Teal",
+        "#62dcda"
+      ]
+    ],
+    "vibeThrive": [
+      [
+        "Purple",
+        "#3d2d91"
+      ],
+      [
+        "Dark purple",
+        "#302277"
+      ],
+      [
+        "Red",
+        "#ff3b30"
+      ],
+      [
+        "Teal",
+        "#11b8c6"
+      ],
+      [
+        "Yellow",
+        "#ffd22b"
+      ],
+      [
+        "Green",
+        "#48bd4b"
+      ]
+    ]
+  },
+  "categories": [
+    {
+      "id": "heroes",
+      "label": "Hero Sections",
+      "selectors": [
+        ".hero",
+        ".page-hero",
+        ".cafe-hero",
+        ".fg-hero",
+        ".vt-hero",
+        ".events-hero"
+      ]
+    },
+    {
+      "id": "cards",
+      "label": "Cards",
+      "selectors": [
+        ".event-card",
+        ".mqa-event-card",
+        ".cafe-side-card",
+        ".fg-help-card",
+        ".vt-pillar",
+        ".mqa-resource-card",
+        ".partner-logo-card",
+        ".programs-reference-card"
+      ]
+    },
+    {
+      "id": "content",
+      "label": "Content Sections",
+      "selectors": [
+        ".section",
+        ".cafe-story",
+        ".fg-about",
+        ".vt-about",
+        ".programs-overview"
+      ]
+    },
+    {
+      "id": "media",
+      "label": "Media & Galleries",
+      "selectors": [
+        ".cafe-carousel",
+        ".fg-photo-slider",
+        ".vt-about-photo",
+        ".hero-media"
+      ]
+    },
+    {
+      "id": "actions",
+      "label": "Buttons & Registration",
+      "selectors": [
+        ".btn",
+        ".cafe-side-button",
+        ".vt-btn",
+        ".mqa-primary"
+      ]
+    },
+    {
+      "id": "impact",
+      "label": "Impact & Fundraising",
+      "selectors": [
+        ".impact-stat",
+        ".programs-impact-stat",
+        ".fg-milestones"
+      ]
+    },
+    {
+      "id": "placeholders",
+      "label": "Placeholders",
+      "selectors": [],
+      "note": "Placeholder components require new editor-only definitions; none are claimed to exist in source."
+    }
+  ],
+  "rules": {
+    "sourcePagesImmutable": true,
+    "templateInstancesIndependent": true,
+    "allowOnlyApprovedPalettes": true,
+    "contentEditing": "new-pages-only-in-initial-release",
+    "scriptsProtected": true,
+    "publication": "draft-review-approve-publish",
+    "responsive": "inherit source CSS; validate across viewports",
+    "safeRendering": "No arbitrary HTML, scripts, or CSS entered through editor"
+  },
+  "verification": {
+    "status": "pending",
+    "requirements": [
+      "Inspect computed styles and all relevant CSS selectors",
+      "Capture source-page desktop/tablet/mobile screenshots",
+      "Verify interactions and Zeffy behavior",
+      "Check contrast for each palette pairing",
+      "Confirm deployment and preview isolation"
+    ]
+  }
+}
